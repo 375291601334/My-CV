@@ -1,0 +1,17 @@
+<div class="timeline">
+  <div *ngFor="let item of items" class="timeline-item">
+
+    <div class="year">
+      {{item.time}}
+      <span class="marker">
+        <span class="dot"></span>
+        </span>
+    </div>
+
+    <div class="info">
+      <h5>{{item.name}}</h5>
+      <p>{{item.description}}</p>
+    </div>
+
+  </div>
+</div>

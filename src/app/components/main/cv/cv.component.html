@@ -1,0 +1,31 @@
+<h3>Резюме:</h3>
+
+<div class="container">
+  <div class="right-block">
+    <button><a href="assets/HushchaA.pdf" download="">Скачать CV</a></button>
+    <h4>Ключевые навыки:</h4>
+    <table>
+      <tbody>
+        <tr *ngFor="let skill of skills">
+          <td>
+            {{skill.name}}
+          </td>
+          <td>
+            <i *ngFor="let i of [].constructor(skill.stars)" class="fas fa-star"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grid-item">
+    <h4>Образование:</h4>
+    <app-timeline [items]="education"></app-timeline>
+  </div>
+
+  <div class="grid-item">
+    <h4>Опыт работы:</h4>
+    <app-timeline [items]="work_experience"></app-timeline>
+  </div>
+
+</div>

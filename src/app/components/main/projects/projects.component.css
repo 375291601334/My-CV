@@ -1,0 +1,64 @@
+h2 {
+  margin: 50px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Garamond', serif;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 10%;
+}
+
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px;
+  padding: 20px;
+  box-shadow:
+   0 0 0 1px #8B8B8B,
+   0 -20px 0 -10px #E83556,
+   20px 0 0 -10px #61D0D4,
+   0 20px 0 -10px #E83556,
+   -20px 0 0 -10px #61D0D4;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+article {
+  margin: 0 10px;
+  font-family: 'Garamond', serif;
+  font-size: 1.5rem;
+}
+
+h3 :hover {
+  color: #61D0D4;
+}
+
+a {
+  text-decoration: none;
+  color: #4D4D4D;
+}
+
+p {
+  color: #6B6B6B;
+}
+
+.more-info {
+  text-align: right;
+  margin: 50px 10%;
+  font-size: 1.5rem;
+  font-family: 'Garamond', serif;
+  color: #4D4D4D;
+}
+
+span a{
+  font-weight: bold;
+  color: #61D0D9;
+}
