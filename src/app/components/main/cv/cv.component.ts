@@ -21,17 +21,17 @@ export class CvComponent implements OnInit {
     {
       name: 'Streamline English Courses',
       time: '2018, 2019',
-      description: 'Экономисемкая кибернетика (оптимальное планирование и управление в экономике)'
+      description: 'Уровни B2 и С1'
     },
     {
-      name: 'IBA JS-course',
+      name: 'Course "JavaScript. Fundamentals"',
       time: '2018',
-      description: 'Экономисемкая кибернетика (оптимальное планирование и управление в экономике)'
+      description: 'IBA 3-month JavaScript course'
     },
     {
       name: 'Roling scopes School',
       time: '2018-2019',
-      description: 'Экономисемкая кибернетика (оптимальное планирование и управление в экономике)'
+      description: 'Half-year corse of web-development'
     }
   ];
 
@@ -62,7 +62,11 @@ export class CvComponent implements OnInit {
       stars: 4,
     },
     {
-      name: '---',
+      name: '   ',
+      stars: 0,
+    },
+    {
+      name: '   ',
       stars: 0,
     },
     {
@@ -71,14 +75,18 @@ export class CvComponent implements OnInit {
     },
     {
       name: 'React',
-      stars: 4,
+      stars: 2,
     },
     {
       name: 'Redux, ngrx',
       stars: 4,
     },
     {
-      name: '---',
+      name: '   ',
+      stars: 0,
+    },
+    {
+      name: '   ',
       stars: 0,
     },
     {
@@ -91,11 +99,7 @@ export class CvComponent implements OnInit {
     },
     {
       name: 'IBMi RPG iV',
-      stars: 4,
-    },
-    {
-      name: '',
-      stars: 0,
-    },
+      stars: 5,
+    }
   ];
 }

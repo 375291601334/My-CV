@@ -11,13 +11,13 @@
 .timeline .timeline-item .info, .timeline .timeline-item .year {
   display: block;
   box-sizing: border-box;
-  float:left;
+  float: left;
 }
 
 .timeline .timeline-item .year {
-  width: 20%;
+  width: 15%;
+  margin-right: 10px;
   text-align: right;
-  line-height: 3.5rem;
 }
 
 .timeline .timeline-item .info {
@@ -26,15 +26,14 @@
   padding: 0 0 40px 35px;
   border-left: 14px solid #aaa;
   font-size: 1.5rem;
-  line-height: 2rem;
 }
 
-.info h5 {
-  margin-top: 5px;
+.info h5, p {
+  margin: 5px 0 0 0;
 }
 
-.info h5, .year {
-  font-size: 1.2rem;
+.info h5, .year, p {
+  font-size: 1rem;
   font-family: 'Garamond', serif;
 }
 
@@ -46,8 +45,8 @@
   border-radius: 100px;
   display: block;
   float: right;
-  margin-right: -34px;
-  margin-left: 50px;
+  margin-right: -44px;
+  margin-left: 30px;
   z-index: 2;
   position: relative;
 }
@@ -71,8 +70,7 @@
 }
 
 .timeline .timeline-item:hover {
-  font-weight: bold;
-  color: #000000;
+  color: #E83556;
 }
 
 .timeline .timeline-item:hover .marker .dot {

@@ -8,19 +8,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.grid-item {
-  width: 60%;
-}
-
-.right-block {
-  width: 40%;
-  position: absolute;
-  right: 0;
-}
-
 button {
   display: block;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 10px 40px;
   font-size: 2rem;
   font-family: 'Garamond', serif;
@@ -37,25 +27,35 @@ h4 {
 }
 
 .container {
-  display: grid;
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
   font-family: 'Garamond', serif;
   color: #4D4D4D;
-  margin-bottom: 130px;
 }
 
 table {
-  width: 40%;
   margin: 0 auto;
 }
 
-td {
+td, p {
+  padding: 10px;
   list-style-type: none;
   font-size: 1.2rem;
   font-weight: bold;
   color: #4D4D4D;
 }
 
+p:hover,
+tr:hover td{
+  color: #E83556;
+}
+
 i {
   color: #E83556;
+}
+
+p>i {
+  color: #61D0D4;
 }

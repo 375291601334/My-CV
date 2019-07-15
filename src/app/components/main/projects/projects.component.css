@@ -25,6 +25,7 @@ h2 {
    20px 0 0 -10px #61D0D4,
    0 20px 0 -10px #E83556,
    -20px 0 0 -10px #61D0D4;
+  overflow: hidden;
 }
 
 .card:hover {

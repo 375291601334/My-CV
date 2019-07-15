@@ -44,5 +44,9 @@ export class ProjectsComponent {
       link: 'https://375291601334.github.io/Teacher-Journal-App'
     },
   ];
+
+  openProjectLink(link) {
+    parent.open(link);
+  }
 }
 

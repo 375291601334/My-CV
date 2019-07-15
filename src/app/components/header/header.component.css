@@ -1,10 +1,11 @@
 header {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   font-family: 'Garamond', serif;
 }
 
 .logo {
-  width: 35%;
   margin-left: 30px;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -35,6 +36,8 @@ a {
 
 .navigation-bar {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: flex-end;
 }
 

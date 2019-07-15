@@ -1,15 +1,15 @@
 <h2>МОИ ПРОЕКТЫ:</h2>
 
 <div class='container'>
-<div *ngFor="let project of projects" class='card'>
-	<a [href]="project.link"><img [src]="project.image" height='200' width='300'></a>
-  <article>
-    <h3><a [href]="project.link"> {{ project.name }} </a></h3>
-    <p> {{ project.description }} </p>
-  </article>
-</div>
+  <div *ngFor="let project of projects" class='card' (click)="openProjectLink(project.link)">
+    <img [src]="project.image" height='200' width='300'>
+    <article>
+      <h3>{{ project.name }}</h3>
+      <p> {{ project.description }} </p>
+    </article>
+  </div>
 </div>
 
 <p class='more-info'>
-  Ещё больше моих проектов можно увидеть на моем <span><a href='https://github.com/375291601334'>GitHub...</a></span>
+  Ещё больше моих проектов можно увидеть на моем <span><a href='https://github.com/375291601334' target='_blank'>GitHub...</a></span>
 </p>
