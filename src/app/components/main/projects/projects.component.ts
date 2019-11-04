@@ -43,6 +43,12 @@ export class ProjectsComponent {
       image: 'assets/projects/teacher-journal-app.png',
       link: 'https://375291601334.github.io/Teacher-Journal-App'
     },
+    {
+      name: 'Videoportal',
+      description: 'Сайт на Angular со списком видеокурсов, которые можно добавлять, редактировать и удалять.',
+      image: 'assets/projects/videoportal.png',
+      link: 'https://375291601334.github.io/videoportal'
+    },
   ];
 
   openProjectLink(link) {
