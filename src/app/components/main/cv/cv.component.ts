@@ -29,7 +29,7 @@ export class CvComponent implements OnInit {
       description: 'IBA 3-month JavaScript course'
     },
     {
-      name: 'Roling scopes School',
+      name: 'Rolling scopes School',
       time: '2018-2019',
       description: 'Half-year corse of web-development'
     }
