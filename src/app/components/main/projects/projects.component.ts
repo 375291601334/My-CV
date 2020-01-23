@@ -15,19 +15,22 @@ export class ProjectsComponent {
     },
     {
       name: 'Kingdom Game',
-      description: 'Развиваюая игра, где игрок выполняет различные задания, чтобы победить монстра. Если игрок дает неверный ответ, то монстр наносит ему удар, уменьшающий единицы здоровья игрока.',
+      description: 'Развиваюая игра, где игрок выполняет различные задания, чтобы победить монстра. ' +
+        'Если игрок дает неверный ответ, то монстр наносит ему удар, уменьшающий единицы здоровья игрока.',
       image: 'assets/projects/game.png',
       link: 'https://375291601334.github.io/Kingdom-Game/'
     },
     {
       name: 'Culture Portal',
-      description: 'Одностаничный сайт на React с использованием Material-UI. Он предоставляет информацию по театральным режиссерам с их биографией, видео из Youtube и отметкой на Google Map.',
+      description: 'Одностаничный сайт на React с использованием Material-UI. ' +
+        'Он предоставляет информацию по театральным режиссерам с их биографией, видео из Youtube и отметкой на Google Map.',
       image: 'assets/projects/culture-portal.png',
       link: 'https://alenakharytonchyk.github.io/CodeJam-Culture-Portal_gr24/'
     },
     {
       name: 'Teacher Journal App',
-      description: 'Сайт на Angular, предоставляющий возможность работать с информацией о студентах и их оценками по принципу школьного журнала.',
+      description: 'Сайт на Angular, предоставляющий возможность работать с информацией ' +
+        'о студентах и их оценками по принципу школьного журнала.',
       image: 'assets/projects/teacher-journal-app.png',
       link: 'https://375291601334.github.io/Teacher-Journal-App'
     },

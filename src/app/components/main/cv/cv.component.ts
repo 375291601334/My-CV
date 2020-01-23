@@ -6,12 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cv.component.css']
 })
 export class CvComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
   education = [
     {
       name: 'БГЭУ',
@@ -35,7 +29,7 @@ export class CvComponent implements OnInit {
     }
   ];
 
-  work_experience = [
+  workExperience = [
     {
       name: 'ЗАО "Альфа-Банк"',
       time: '2016-2019',
@@ -102,4 +96,8 @@ export class CvComponent implements OnInit {
       stars: 5,
     }
   ];
+
+  constructor() {}
+
+  ngOnInit() {}
 }
