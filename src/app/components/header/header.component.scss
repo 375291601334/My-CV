@@ -30,6 +30,10 @@ a {
   color: #8B8B8B;
 }
 
+ul {
+  padding: 0;
+}
+
 .active {
   color: #E83556;
 }
@@ -41,3 +45,17 @@ a {
   align-items: flex-end;
 }
 
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo,
+  .navigation-item {
+    font-size: 1rem;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+}

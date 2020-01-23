@@ -63,3 +63,29 @@ span a{
   font-weight: bold;
   color: #61D0D9;
 }
+
+img {
+  height: 200px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    margin: 20px;
+    font-size: 1.5rem;
+  }
+
+  .card {
+    height: auto;
+    margin: 20px 5px;
+  }
+
+  article,
+  .more-info {
+    font-size: 1rem;
+  }
+
+  .more-info {
+    margin: 15px 10%;
+  }
+}

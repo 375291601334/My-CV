@@ -50,3 +50,24 @@ a:hover {
   padding: 4px;
   border: 1px dashed #61D0D4;
 }
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin: 10px;
+    font-size: 1rem;
+  }
+
+  .social-links,
+  span {
+    font-size: 1.5rem;
+  }
+
+  .paternity {
+    position: static;
+  }
+}
